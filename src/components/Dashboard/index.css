@@ -1,0 +1,12 @@
+.Dash-ul{
+    border:2px solid red;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding:0px;
+}
+.Dash-ul-user{
+    border:2px solid blue;
+    list-style-type: none;
+    padding:0;
+}
