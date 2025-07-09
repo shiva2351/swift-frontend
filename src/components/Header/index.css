@@ -1,12 +1,50 @@
-.Dash-ul{
-    border:2px solid red;
+.head-ul{
     display:flex;
     list-style-type: none;
     justify-content: space-between;
     padding:0px;
+    align-items: center;
+    flex-basis:90%;
 }
-.Dash-ul-user{
-    border:2px solid blue;
-    list-style-type: none;
-    padding:0;
+.header{
+    background-color: #272a4b;
+    border:2px solid #272a4b;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
 }
+.logo-s{
+    background-color: #47b14e;
+    width:30px;
+    border-top-right-radius: 50px;
+}
+.logo-card{
+    display: flex;
+    color:#ffffff;
+    font-size: 17px;
+    font-weight: 600;
+}
+.head-user{
+    color:#ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:13%;
+}
+
+.head-logo{
+    border-radius: 70px;
+    background-color: #f9f9f9;
+    padding:10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 20px;
+    color:#6d767a;
+}
+
+

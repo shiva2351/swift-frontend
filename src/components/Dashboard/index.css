@@ -1,12 +1,126 @@
 .Dash-ul{
-    border:2px solid red;
     display:flex;
     list-style-type: none;
     justify-content: space-between;
     padding:0px;
+    border-bottom: 1px solid #cccccc;
 }
 .Dash-ul-user{
-    border:2px solid blue;
     list-style-type: none;
     padding:0;
+    margin: 0;
+    
+    border:1px solid #cccccc;
+}
+.dash{
+    padding: 0;
+    
+    border:6px solid #cccccc;
+    width:98vw;
+    height:98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dash-sort-card{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+}
+.dash-sort{
+    display: flex;
+    align-items: center;
+}
+.dash-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-card{
+    width:15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border:3px solid #cccccc;
+    border-radius: 7px;
+    padding:6px;
+}
+.search-input{
+    border-color: transparent;
+    border:transparent;
+    height:100%;
+    flex-grow:1;
+}
+.Dash-ul-default{
+    list-style-type: none;
+    padding:0;
+    display:flex;
+    flex-basis:100%;
+    font-weight: 600;
+    background-color: #cccccc;
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.Dash-li-default{
+    flex-grow:2;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding:10px;
+    width:25%;
+    text-align: left;
+    flex-wrap: nowrap;
+    overflow:hidden;
+    white-space: nowrap;
+    
+}
+.li-id{
+    flex-grow:1;
+    width:10%;
+}
+
+
+.dash-card-content{
+    width:90%
+}
+.dash-ul-card{
+    padding:0;
+}
+
+.dash-bottom-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+.dash-bottom-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: ce;
+}
+.dash-tab{
+    width:20px;
+    height: 20px;
+    border:none;
+
+}
+.dash-tab-active{
+    border:1px solid grey;
+    width:20px;
+    height: 20px;
+    margin-left: 6px;
+
+}
+
+.dash-page{
+    margin-left: 4px;
+    border:2px solid #cccccc;
+    border-radius: 6px;
+    padding:3px;
+}
+.dash-bottom-card-1{
+    margin-right: 4px;
 }
